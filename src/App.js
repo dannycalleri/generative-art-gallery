@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from 'styled-components';
+import Sinusoidal from './sinusoidal';
+import Abstract from './abstract';
+import AbstractTwo from './abstract-two';
+import StarWars from './star-wars';
 import './App.css';
+
+const Container = styled.div`
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+`;
+
+const FramesContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <FramesContainer>
+        <h1>Generative art experiments</h1>
+        <StarWars />
+        <AbstractTwo />
+        <Abstract />
+        <Sinusoidal />
+      </FramesContainer>
+    </Container>
   );
 }
 
