@@ -23,7 +23,7 @@ function App() {
   return (
     <Container>
       <FramesContainer>
-        <h1>Generative art experiments</h1>
+        <h1>Generative art gallery</h1>
         <StarWars />
         <AbstractTwo />
         <Abstract />
