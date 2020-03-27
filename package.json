@@ -1,6 +1,14 @@
 {
   "name": "gen-arts-experiments",
   "version": "0.1.0",
+  "homepage": "http://dannycalleri.github.io/generative-art-gallery",
+  "author": "Daniele Calleri",
+  "keywords": [
+    "art",
+    "generative",
+    "canvas"
+  ],
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
