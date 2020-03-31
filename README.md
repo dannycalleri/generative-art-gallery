@@ -1,6 +1,4 @@
-# Generative Art Gallery
-
-[Demo](http://dannycalleri.github.io/generative-art-gallery)
+# Generative Art Gallery - [Demo](http://dannycalleri.github.io/generative-art-gallery)
 
 "Generative art gallery" is a bit pretentious, I know, but apparently this is how algorithmically generated colored stuff is called nowadays.
 And I have to admit the name is pretty cool :D
